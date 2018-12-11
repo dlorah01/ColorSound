@@ -14,3 +14,42 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@font-face {
+  font-family: "League";
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/LeagueSpartan-Bold.otf');
+}
+
+
+@font-face {
+  font-family: "Libre1";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/LibreBaskerville-Regular.otf');
+}
+
+@font-face {
+  font-family: "Libre2";
+  font-style: italic;
+  font-weight: normal;
+  src: url('../assets/LibreBaskerville-Italic.otf');
+}
+
+@font-face {
+  font-family: "Libre3";
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/LibreBaskerville-Bold.otf');
+}
+
+ion-title {
+  text-align: center;
+  font-family: "League" !important;
+}
+
+$font-family-md-base: "Libre2";
+$font-family-ios-base: "Libre2";
+$font-family-wp-base: "Libre2";
+

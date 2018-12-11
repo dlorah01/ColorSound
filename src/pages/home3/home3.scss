@@ -1,9 +1,6 @@
 .back {
 	background-color:#233d4d !important;
 }
-ion-navbar{
-	font-family: League  !important;
-}
 
 .uno{
 	color: #000000;
@@ -18,8 +15,15 @@ ion-navbar{
 }
 
 .fixed{
-	height: 80% !important;
+	height: 60% !important;
 	background-color:#fcca46 !important;
-	
+	font-family: Libre2  !important;
+
+}
+
+.nofixed{
+	background-color:#fe7f2d !important;
+	font-family: Libre2  !important;
+	height: 80% !important;
 
 }

@@ -1,14 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color='colority'>
+    <ion-title aria-label='título'><div class="uno">COLOR.</div><div class="dos">SOUND( )</div></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+
+<ion-content padding class="back">
+
+  <p aria-label='instrucción 1' text-center class="parrafo" (click)="reproducir()">
+    {{texto}}
   </p>
+ <button aria-label='boton de cámara' ion-button block (click)="getPicture()" class="fixed" strong=true style="font-size:130%; border: 2px solid #eeeeee; ">ABRIR CÁMARA</button>
+  <ion-label>
+        
+  </ion-label>
 </ion-content>

@@ -3,14 +3,21 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { MobileAccessibility } from '@ionic-native/mobile-accessibility';
+import { Camera } from '@ionic-native/camera';
+import { TextToSpeech } from '@ionic-native/text-to-speech';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { HomePage2 } from '../pages/home2/home2';
+import { HomePage3 } from '../pages/home3/home3';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    HomePage2,
+    HomePage3
   ],
   imports: [
     BrowserModule,
@@ -19,11 +26,17 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    HomePage2,
+    HomePage3
+    
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
+    TextToSpeech,
+    MobileAccessibility,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

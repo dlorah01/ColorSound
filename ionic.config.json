@@ -1,5 +1,7 @@
 {
   "name": "colorSound",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

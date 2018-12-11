@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color='colority'>
+    <ion-title aria-label='título'><div class="uno">COLOR.</div><div class="dos">SOUND( )</div></ion-title>
+    <ion-buttons right>
+      <button color='colority'(click)="goBack()">
+        
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="back">
+
+  <p aria-label='instrucción' text-center class="parrafo" (click)="reproducir()">
+    {{texto}}
+  </p>
+  <img aria-label='imagen' id="imagine" [src]="image" *ngIf="image" (click)="transformar()"/>
+  <ion-label>
+        
+  </ion-label>
+</ion-content>
