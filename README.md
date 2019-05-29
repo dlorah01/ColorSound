@@ -1,7 +1,7 @@
 # ColorSound
 A project focused on transform an image, using his color values, into a sound. The main user of this project is blind people as an alternative to get a real perception of the color.
 
-# Ionic 3 Starter Template
+## Ionic 3 version:
 
 ## Getting Started
 
